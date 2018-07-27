@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup"
+    tools:context=".UserData">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/info"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:text="User data" />
+
+
+    <LinearLayout
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/email_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#626562"
+            android:gravity="center"
+            android:textColor="#fff"
+            tools:text="email" />
+
+        <TextView
+            android:id="@+id/password_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#626562"
+            android:gravity="center"
+            android:textColor="#fff"
+            tools:text="password" />
+
+        <TextView
+            android:id="@+id/again_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#626562"
+            android:gravity="center"
+            android:textColor="#fff"
+            tools:text="again" />
+
+        <TextView
+            android:id="@+id/mobile_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#626562"
+            android:gravity="center"
+            android:textColor="#fff"
+            tools:text="0123456" />
+
+    </LinearLayout>
+
+</RelativeLayout>
